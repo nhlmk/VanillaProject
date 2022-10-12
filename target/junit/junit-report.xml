@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="49.735">
+    <testcase classname="About this item feature" name="User should be able to see second highest priced item's about this section menu" time="49.328">
+        <system-out>
+            <![CDATA[Given user is on the homepage of the application............................passed
+When user clicks the hamburger menu in the top left corner..................passed
+And user scrolls down and then Click on the TV, Appliances and Electronics link under Shop by Department section.passed
+And user clicks on Televisions under Tv, Audio & Cameras sub section........passed
+And user scrolls down and filter the results by Brand Samsung...............passed
+And user sorts the Samsung results with price High to Low...................passed
+And user clicks on the second highest priced item and window switches.......passed
+Then user should be able to see that About this item section present logs this section text to console-report.passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
