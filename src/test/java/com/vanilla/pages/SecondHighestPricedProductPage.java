@@ -15,4 +15,5 @@ public class SecondHighestPricedProductPage {
     public WebElement aboutThisItemHeader;
     @FindBy(xpath = "//ul[@class='a-unordered-list a-vertical a-spacing-mini']")
     public WebElement textBelowAboutThisItemHeader;
+
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="49.735">
-    <testcase classname="About this item feature" name="User should be able to see second highest priced item's about this section menu" time="49.328">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="42.779">
+    <testcase classname="About this item feature" name="User should be able to see second highest priced item's about this section menu" time="42.353">
         <system-out>
             <![CDATA[Given user is on the homepage of the application............................passed
 When user clicks the hamburger menu in the top left corner..................passed

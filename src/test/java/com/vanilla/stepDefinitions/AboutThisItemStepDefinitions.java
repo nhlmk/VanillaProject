@@ -1,19 +1,24 @@
 package com.vanilla.stepDefinitions;
 
+import com.beust.jcommander.internal.Console;
 import com.vanilla.pages.BasePage;
 import com.vanilla.pages.SecondHighestPricedProductPage;
 import com.vanilla.pages.TelevisionsPage;
 import com.vanilla.utilities.BrowserUtilities;
 import com.vanilla.utilities.Driver;
+import io.cucumber.core.logging.Logger;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import jdk.javadoc.doclet.Reporter;
+import org.apache.commons.logging.Log;
 import org.junit.Assert;
+import org.junit.Test;
 import org.openqa.selenium.JavascriptExecutor;
 
 import java.util.Set;
+import java.util.logging.ConsoleHandler;
 
 public class AboutThisItemStepDefinitions {
 
@@ -77,8 +82,9 @@ public class AboutThisItemStepDefinitions {
     public void userShouldBeAbleToSeeThatAboutThisItemSectionPresentLogsThisSectionTextToConsoleReport() {
         jse.executeScript("window.scrollBy(0,750)");
         Assert.assertTrue(secondHighestPricedProductPage.aboutThisItemHeader.isDisplayed());
-        secondHighestPricedProductPage.textBelowAboutThisItemHeader.getText();
+        System.out.println(secondHighestPricedProductPage.textBelowAboutThisItemHeader.getText());
 
 
     }
+
 }
